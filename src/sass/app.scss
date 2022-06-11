@@ -1,0 +1,54 @@
+$DarkBlue: #0B0D17;
+$LightBLue: #D0D6F9;
+$White: #FFFFFF;
+
+h1{
+    font-family: 'Bellefair Regular';
+    font-size: 150px;
+    color: $White;
+}
+
+h2{
+    font-family: 'Bellefair Regular';
+    font-size: 100px;
+    color: $White;
+}
+
+h3{
+    font-family: 'Bellefair Regular';
+    font-size: 56px;
+    color: $White;
+}
+
+h4{
+    font-family: 'Bellefair Regular';
+    font-size: 32px;
+    color: $White;
+}
+
+h5{
+    font-family: 'Barlow Condensed Regular';
+    font-size: 32px;
+    color: $LightBLue;
+    letter-spacing: 4.75;
+}
+
+.subHeading1{
+    font-family: 'Bellefair Regular';
+    font-size: 28px;
+    color: $White;
+}
+
+.subHeading2{
+    font-family: 'Barlow Condensed Regular';
+    font-size: 14px;
+    color: $White;
+    letter-spacing: 2.35;
+}
+
+.navText{
+    font-family: 'Barlow Condensed Regular';
+    font-size: 16px;
+    color: $White;
+    letter-spacing: 2.7; 
+}
