@@ -36,6 +36,7 @@
 .navBarList {
   width: 540px;
   height: 96px;
+  padding-right: 2.92vw;
 }
 
 .navBarList ul {
@@ -47,6 +48,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: inherit;
   width: inherit;
   margin: 0;
@@ -54,6 +58,9 @@
 }
 
 .navBarList ul li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   line-height: 96px;
 }
 
@@ -80,11 +87,11 @@
 }
 
 .navBarLine {
-  width: 32.6vw;
+  width: 32.7vw;
   height: 1px;
-  background-color: grey;
+  background-color: rgba(188, 188, 188, 0.256);
   position: relative;
-  left: 3vw;
+  left: calc(10vw - 80px);
   z-index: 10;
 }
 /*# sourceMappingURL=NavBar.css.map */

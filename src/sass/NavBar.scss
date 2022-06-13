@@ -26,16 +26,19 @@
 .navBarList{
     width:540px;
     height: 96px;
+    padding-right:2.92vw;
     ul{
         list-style: none;
         display: flex;
         justify-content: center;
         gap:48px;
+        align-items: center;
         height: inherit;
         width: inherit;
         margin:0;
         padding: 0;
         li{
+            align-items: center;
             line-height: 96px;
             a{
                 text-decoration: none;
@@ -59,10 +62,10 @@
 }
 
 .navBarLine{
-    width: 32.6vw;
+    width: 32.7vw;
     height: 1px;
-    background-color: grey;
+    background-color: rgba(#BCBCBC, .256);
     position: relative;
-    left: 3vw;
+    left: calc(10vw - 80px);
     z-index: 10;
 }
