@@ -1,6 +1,19 @@
-$DarkBlue: #0B0D17;
-$LightBLue: #D0D6F9;
-$White: #FFFFFF;
+@import './variables.scss';
+
+@font-face {
+    font-family: 'Barlow Condensed Regular';
+    src: url('../../public/fonts/BarlowCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bellefair Regular';
+    src: url('../../public/fonts/Bellefair-Regular.ttf');
+}
+
+
+body{
+    margin:0;
+}
 
 h1{
     font-family: 'Bellefair Regular';
@@ -30,7 +43,7 @@ h5{
     font-family: 'Barlow Condensed Regular';
     font-size: 32px;
     color: $LightBLue;
-    letter-spacing: 4.75;
+    letter-spacing: 4.75px;
 }
 
 .subHeading1{
@@ -43,12 +56,12 @@ h5{
     font-family: 'Barlow Condensed Regular';
     font-size: 14px;
     color: $White;
-    letter-spacing: 2.35;
+    letter-spacing: 2.35px;
 }
 
 .navText{
     font-family: 'Barlow Condensed Regular';
     font-size: 16px;
     color: $White;
-    letter-spacing: 2.7; 
+    letter-spacing: 2.7px; 
 }

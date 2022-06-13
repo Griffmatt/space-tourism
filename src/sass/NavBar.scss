@@ -1,6 +1,68 @@
-.navText{
-    font-family: 'Barlow Condensed Regular';
-    font-size: 16px;
-    color: $White;
-    letter-spacing: 2.7; 
+@import './variables.scss';
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 4.44vh;
+    right: 0;
+    position: absolute;
+    width: 96.5vw;
+    img{
+        width: 5.3vh;
+        height: auto;
+    }
+}
+
+.navBarListWrapper{
+    height: 96px;
+    width: 57.6vw;
+    backdrop-filter: blur(40px);
+    background-color: rgba($White, .04);
+    display: flex;
+    justify-content: center;
+}
+
+.navBarList{
+    width:540px;
+    height: 96px;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap:48px;
+        height: inherit;
+        width: inherit;
+        margin:0;
+        padding: 0;
+        li{
+            line-height: 96px;
+            a{
+                text-decoration: none;
+                color:$White;
+                display: block;
+            }
+            a:hover{
+                border-bottom: 3px solid $Grey;
+            }
+            .active{
+                border-bottom: 3px solid $White;
+            }
+            .active:hover{
+                border-bottom: 3px solid $White;
+            }
+            span{
+                font-weight:bold;
+            }
+        }
+    }
+}
+
+.navBarLine{
+    width: 32.6vw;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    left: 3vw;
+    z-index: 10;
 }

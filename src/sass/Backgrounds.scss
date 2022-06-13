@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+.homePage{
+    background-image: url('/public/images/home/background-home-desktop.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.crewPage{
+    background-image: url('/public/images/crew/background-crew-desktop.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.destinationPage{
+    background-image: url('/public/images/destination/background-destination-desktop.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.technologyPage{
+    background-image: url('/public/images/technology/background-technology-desktop.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}

@@ -1,0 +1,90 @@
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 4.44vh;
+  right: 0;
+  position: absolute;
+  width: 96.5vw;
+}
+
+.navBar img {
+  width: 5.3vh;
+  height: auto;
+}
+
+.navBarListWrapper {
+  height: 96px;
+  width: 57.6vw;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  background-color: rgba(255, 255, 255, 0.04);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navBarList {
+  width: 540px;
+  height: 96px;
+}
+
+.navBarList ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 48px;
+  height: inherit;
+  width: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.navBarList ul li {
+  line-height: 96px;
+}
+
+.navBarList ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+}
+
+.navBarList ul li a:hover {
+  border-bottom: 3px solid #979797;
+}
+
+.navBarList ul li .active {
+  border-bottom: 3px solid #FFFFFF;
+}
+
+.navBarList ul li .active:hover {
+  border-bottom: 3px solid #FFFFFF;
+}
+
+.navBarList ul li span {
+  font-weight: bold;
+}
+
+.navBarLine {
+  width: 32.6vw;
+  height: 1px;
+  background-color: grey;
+  position: relative;
+  left: 3vw;
+  z-index: 10;
+}
+/*# sourceMappingURL=NavBar.css.map */
