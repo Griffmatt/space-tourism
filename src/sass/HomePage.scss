@@ -1,0 +1,40 @@
+@import './variables.scss';
+
+.homePageInfoWrapper{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 11.2vw;
+    bottom: 165px;
+    width:77vw;
+    .homePageInfo{
+        height: 382px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .homePageButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        button{
+            height: 274px;
+            width: 274px;
+            border-radius: 100%;
+            border:none;
+            box-shadow: 2px 2px 0px 0px rgba($White, .1);
+            transition: box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+            h4{
+                color: #0B0D17;
+                letter-spacing: 2px;
+            }
+        }
+        button:hover {
+           box-shadow: 2px 2px 0px 88px rgba($White, .1);
+        }
+
+    }
+}
