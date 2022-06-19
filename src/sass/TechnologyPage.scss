@@ -1,0 +1,53 @@
+@import './variables.scss';
+
+.technologyPage{
+   img{
+    position:absolute;
+    right:0;
+    bottom: 11.22vh;
+    width:35.76vw;
+    height: auto;
+   } 
+
+   .technologyPageInfo{
+    width: 30.8vw;
+    height: 303px;
+    position: absolute;
+    top: 42.55vh;
+    left: 22.57vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   }
+   .navText{
+    color: $LightBLue;
+   }
+   .techNav{
+        position: absolute;
+        left: 11.45vw;
+        top: 42.55vh;
+        height: 303px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .techDot{
+            height: 78px;
+            width: 78px;
+            border-radius: 100%;
+            line-height: 78px;
+            text-align: center;
+            font-weight: 500;
+            border: 1px solid rgba($White, .25)
+        }
+        .active{
+            background-color: $White;
+            border-color: rgba($White, 1);
+            color: $DarkBlue;
+        }
+
+        .techDot:hover{
+            border-color: rgba($White, 1);
+        }
+   }
+
+}

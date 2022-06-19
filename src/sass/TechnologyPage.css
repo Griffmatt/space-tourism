@@ -1,0 +1,67 @@
+.technologyPage img {
+  position: absolute;
+  right: 0;
+  bottom: 11.22vh;
+  width: 35.76vw;
+  height: auto;
+}
+
+.technologyPage .technologyPageInfo {
+  width: 30.8vw;
+  height: 303px;
+  position: absolute;
+  top: 42.55vh;
+  left: 22.57vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.technologyPage .navText {
+  color: #D0D6F9;
+}
+
+.technologyPage .techNav {
+  position: absolute;
+  left: 11.45vw;
+  top: 42.55vh;
+  height: 303px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.technologyPage .techNav .techDot {
+  height: 78px;
+  width: 78px;
+  border-radius: 100%;
+  line-height: 78px;
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.technologyPage .techNav .active {
+  background-color: #FFFFFF;
+  border-color: white;
+  color: #0B0D17;
+}
+
+.technologyPage .techNav .techDot:hover {
+  border-color: white;
+}
+/*# sourceMappingURL=TechnologyPage.css.map */

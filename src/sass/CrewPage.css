@@ -24,6 +24,8 @@
   bottom: 0;
   right: 9.51vw;
   z-index: 0;
+  height: 80vh;
+  width: auto;
 }
 
 .crewPage .navDots {
