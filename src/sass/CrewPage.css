@@ -1,0 +1,62 @@
+.crewPage .crewInfo {
+  position: absolute;
+  top: 44.44%;
+  left: 11.56%;
+  z-index: 1;
+}
+
+.crewPage .crewInfo h4 {
+  opacity: .5;
+  margin-bottom: 1.66vh;
+}
+
+.crewPage .crewInfo h3 {
+  max-width: 30vw;
+}
+
+.crewPage .crewInfo p {
+  width: 30.83vw;
+  margin-top: 1.88vh;
+}
+
+.crewPage img {
+  position: absolute;
+  bottom: 0;
+  right: 9.51vw;
+  z-index: 0;
+}
+
+.crewPage .navDots {
+  position: absolute;
+  left: 11.6vw;
+  bottom: 6.52vh;
+  height: 15px;
+  width: 138px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.crewPage .navDots .navDot {
+  width: 15px;
+  height: 15px;
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  opacity: .25;
+}
+
+.crewPage .navDots .navDot:hover {
+  opacity: .5;
+}
+
+.crewPage .navDots .active {
+  opacity: 1;
+}
+
+.crewPage .navDots .active:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=CrewPage.css.map */

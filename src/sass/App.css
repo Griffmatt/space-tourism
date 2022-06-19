@@ -30,6 +30,7 @@ h2 {
   font-size: 6.25rem;
   color: #FFFFFF;
   margin: 0;
+  font-weight: 400;
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
   font-size: 3.5rem;
   color: #FFFFFF;
   margin: 0;
+  font-weight: 400;
 }
 
 h4 {
@@ -44,6 +46,7 @@ h4 {
   font-size: 2rem;
   color: #FFFFFF;
   margin: 0;
+  font-weight: 400;
 }
 
 h5 {
@@ -87,8 +90,8 @@ p {
 .pageTitle {
   color: #FFFFFF;
   position: absolute;
-  left: 166.5px;
-  top: 212px;
+  left: 11.56%;
+  top: 23.55%;
 }
 
 .pageTitle span {
@@ -96,4 +99,4 @@ p {
   margin-right: 1.95vw;
   opacity: .25;
 }
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=App.css.map */

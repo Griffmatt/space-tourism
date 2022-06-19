@@ -3,6 +3,7 @@ import './sass/NavBar.css';
 import './sass/Backgrounds.css';
 import './sass/HomePage.css';
 import './sass/DestinationPage.css';
+import './sass/CrewPage.css';
 import {Routes, Route} from 'react-router-dom'
 
 import HomePage from './components/pages/HomePage';
