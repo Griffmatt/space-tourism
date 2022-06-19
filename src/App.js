@@ -2,6 +2,7 @@ import './sass/App.css';
 import './sass/NavBar.css';
 import './sass/Backgrounds.css';
 import './sass/HomePage.css';
+import './sass/DestinationPage.css';
 import {Routes, Route} from 'react-router-dom'
 
 import HomePage from './components/pages/HomePage';

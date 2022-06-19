@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'Barlow';
+  src: url("../../public/fonts/Barlow-Regular.ttf");
+}
+
+@font-face {
   font-family: 'Bellefair';
   src: url("../../public/fonts/Bellefair-Regular.otf");
 }
@@ -74,11 +79,21 @@ h5 {
 
 p {
   font-size: 18px;
-  font-weight: 400;
   color: #D0D6F9;
-  font-family: 'Barlow Condensed', sans-serif;
-  margin: 0;
+  font-family: 'Barlow', sans-serif;
   line-height: 32px;
-  letter-spacing: 1px;
+}
+
+.pageTitle {
+  color: #FFFFFF;
+  position: absolute;
+  left: 166.5px;
+  top: 212px;
+}
+
+.pageTitle span {
+  font-weight: bold;
+  margin-right: 1.95vw;
+  opacity: .25;
 }
 /*# sourceMappingURL=app.css.map */
