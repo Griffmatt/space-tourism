@@ -1,14 +1,19 @@
 .destinationPage .destinationPageContent {
   position: absolute;
-  left: 230px;
-  bottom: 112px;
+  left: 15.97vw;
+  bottom: 12.44vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: 157px;
+  gap: 10.9vw;
+}
+
+.destinationPage .destinationPageContent img {
+  height: 49.44vh;
+  width: auto;
 }
 
 .destinationPage .destinationPageContent ul {
@@ -20,6 +25,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 285px;
+  height: 34px;
   padding: 0;
   margin: 0;
   vertical-align: top;
@@ -45,8 +51,8 @@
 }
 
 .destinationPage .destinationPageContent .destinationPageContentInfo {
-  height: 472px;
-  width: 445px;
+  height: 52.44vh;
+  width: 30.9vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

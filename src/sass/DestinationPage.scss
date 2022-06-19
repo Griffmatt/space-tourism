@@ -4,16 +4,21 @@
 
     .destinationPageContent{
         position: absolute;
-        left: 230px;
-        bottom: 112px;
+        left: 15.97vw;
+        bottom: 12.44vh;
         display: flex;
         justify-content: flex-start;
-        gap: 157px;
+        gap: 10.9vw;
+        img{
+            height:49.44vh;
+            width: auto;
+        }
         ul{
             list-style: none;
             display: flex;
             justify-content: space-between;
             width: 285px;
+            height: 34px;
             padding: 0;
             margin: 0;
             vertical-align: top;
@@ -34,8 +39,8 @@
             }
         }
         .destinationPageContentInfo{
-            height: 472px;
-            width: 445px;
+            height: 52.44vh;
+            width: 30.9vw;
             display: flex;
             flex-direction: column;
             justify-content: space-between;

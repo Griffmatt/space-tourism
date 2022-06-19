@@ -1,24 +1,26 @@
 import React, {useState} from 'react'
-import Destinations from '../../data.json'
+import Data from '../../data.json'
 
 function DestinationPage() {
-  
+  const navItems = ["MOON", "MARS", "EUROPA", "TITAN"]
   const [active, setActive] = useState(0)
+  let destinations= Data.destinations
 
   return (
     <div className="destinationPage">
         <h5 className="pageTitle"><span>01</span>PICK YOUR DESTINATION</h5>
         <div className="destinationPageContent">
-          <img src={Destinations.destinations[active].images.png} alt={Destinations.destinations[active].name}/>
+          <img src={destinations[active].images.png} alt={destinations[active].name}/>
           <div className="destinationPageContentInfo">
             <ul className="destinationPageNav">
-              <li className="navText active">MOON</li>
-              <li className="navText">MARS</li>
-              <li className="navText">EUROPA</li>
-              <li className="navText">TITAN</li>
+              {navItems.map((item, index)=>{
+                return(
+                  <li className={`navText ${active===index? "active": ""}`} onClick={()=>setActive(index)} key={index}>{item}</li>
+                )
+              })}
             </ul>
-            <h2>{Destinations.destinations[active].name.toUpperCase()}</h2>
-            <p>{Destinations.destinations[active].description}</p>
+            <h2>{destinations[active].name.toUpperCase()}</h2>
+            <p>{destinations[active].description}</p>
             <div className="contentDivider"/>
             <div className="destinationPageInfo">
               <div>
@@ -26,7 +28,7 @@ function DestinationPage() {
                   AVG. DISTANCE
                 </p>
                 <p className="subHeading1">
-                  {Destinations.destinations[active].distance.toUpperCase()}
+                  {destinations[active].distance.toUpperCase()}
                 </p>
               </div>
               <div>
@@ -34,7 +36,7 @@ function DestinationPage() {
                   EST. TRAVEL TIME
                 </p>
                 <p className="subHeading1">
-                  {Destinations.destinations[active].travel.toUpperCase()}
+                  {destinations[active].travel.toUpperCase()}
                 </p>
               </div>
             </div>
