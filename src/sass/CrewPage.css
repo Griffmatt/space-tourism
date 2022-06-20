@@ -19,12 +19,22 @@
   margin-top: 1.88vh;
 }
 
-.crewPage img {
+.crewPage .crewImage {
   position: absolute;
   bottom: 0;
   right: 9.51vw;
   z-index: 0;
-  height: 80vh;
+  min-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.crewPage .crewImage img {
+  height: 75vh;
   width: auto;
 }
 
@@ -60,5 +70,50 @@
 
 .crewPage .navDots .active:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .crewPage .crewInfo {
+    top: 220px;
+    left: 16.15vw;
+    width: 67.7vw;
+    height: 182px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .crewPage .crewInfo h4 {
+    margin-bottom: 0;
+  }
+  .crewPage .crewInfo h3 {
+    max-width: none;
+  }
+  .crewPage .crewInfo p {
+    width: auto;
+    margin: 0;
+  }
+  .crewPage .crewImage {
+    right: calc(50% - 250px);
+  }
+  .crewPage .crewImage img {
+    height: 532px;
+  }
+  .crewPage .navDots {
+    left: 44.27vw;
+    top: 442px;
+    width: 88px;
+  }
+  .crewPage .navDots .navDot {
+    height: 10px;
+    width: 10px;
+  }
 }
 /*# sourceMappingURL=CrewPage.css.map */

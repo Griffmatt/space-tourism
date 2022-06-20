@@ -18,13 +18,18 @@
             margin-top:1.88vh;
         }
     }
-    img{
+    .crewImage{
         position: absolute;
         bottom:0;
         right: 9.51vw;
         z-index: 0;
-        height: 80vh;
-        width: auto;
+        min-width: 500px;
+        display: flex;
+        justify-content: center;
+        img{
+            height: 75vh;
+            width: auto;
+        }
     }
     .navDots{
         position: absolute;
@@ -52,4 +57,46 @@
         }
     }
 
+}
+
+@media  screen and (max-width: 1023px) {
+    .crewPage{
+        .crewInfo{
+            top: 220px;
+            left: 16.15vw;
+            width: 67.7vw;
+            height: 182px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        h4{
+            margin-bottom: 0;
+        }
+        h3{
+            max-width: none;
+        }
+        p{
+            width: auto;
+            margin:0;
+        }
+    }
+        .crewImage{
+            right: calc(50% - 250px);
+            img{
+                height: 532px;
+            }
+        }
+    .navDots{
+        left: 44.27vw;
+        top: 442px;
+        width: 88px;
+        .navDot{
+            height: 10px;
+            width: 10px;
+        }
+    }
+
+
+}
 }

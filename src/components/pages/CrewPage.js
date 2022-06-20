@@ -14,13 +14,15 @@ function CrewPage() {
           <h3>{crew[active].name.toUpperCase()}</h3>
           <p>{crew[active].bio}</p>
         </div>
-        <img src={crew[active].images.png} alt={crew[active].name}/>
         <div className="navDots">
           {navDots.map(dot=>{
             return(
               <div className={`navDot ${active===dot?"active":""}`} onClick={()=>setActive(dot)}/>
             )
           })}
+        </div>
+        <div className="crewImage">
+          <img src={crew[active].images.png} alt={crew[active].name}/>
         </div>
     </div>
   )
