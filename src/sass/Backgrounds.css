@@ -25,4 +25,19 @@
   width: 100vw;
   background-size: cover;
 }
+
+@media screen and (max-width: 1023px) {
+  .homePage {
+    background-image: url("/public/images/home/background-home-tablet.jpg");
+  }
+  .technologyPage {
+    background-image: url("/public/images/technology/background-technology-tablet.jpg");
+  }
+  .destinationPage {
+    background-image: url("/public/images/destination/background-destination-tablet.jpg");
+  }
+  .crewPage {
+    background-image: url("/public/images/crew/background-crew-tablet.jpg");
+  }
+}
 /*# sourceMappingURL=Backgrounds.css.map */

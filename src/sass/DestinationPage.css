@@ -1,4 +1,4 @@
-.destinationPage .destinationPageContent {
+.destinationPageContent {
   position: absolute;
   left: 15.97vw;
   bottom: 12.44vh;
@@ -11,12 +11,12 @@
   gap: 10.9vw;
 }
 
-.destinationPage .destinationPageContent img {
+.destinationPageContent img {
   height: 49.44vh;
   width: auto;
 }
 
-.destinationPage .destinationPageContent ul {
+.destinationPageContent ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,26 +31,26 @@
   vertical-align: top;
 }
 
-.destinationPage .destinationPageContent ul li {
+.destinationPageContent ul li {
   cursor: pointer;
   padding-bottom: 12px;
   color: #D0D6F9;
 }
 
-.destinationPage .destinationPageContent ul li:hover {
+.destinationPageContent ul li:hover {
   border-bottom: 3px solid #979797;
 }
 
-.destinationPage .destinationPageContent ul .active {
+.destinationPageContent ul .active {
   border-bottom: 3px solid #FFFFFF;
   color: #FFFFFF;
 }
 
-.destinationPage .destinationPageContent ul .active:hover {
+.destinationPageContent ul .active:hover {
   border-bottom: 3px solid #FFFFFF;
 }
 
-.destinationPage .destinationPageContent .destinationPageContentInfo {
+.destinationPageContent .destinationPageContentInfo {
   height: 52.44vh;
   width: 30.9vw;
   display: -webkit-box;
@@ -65,17 +65,17 @@
           justify-content: space-between;
 }
 
-.destinationPage .destinationPageContent .destinationPageContentInfo .subHeading2 {
+.destinationPageContent .destinationPageContentInfo .subHeading2 {
   color: #D0D6F9;
 }
 
-.destinationPage .destinationPageContent .contentDivider {
+.destinationPageContent .contentDivider {
   width: 100%;
   height: 1px;
   background-color: #383B4B;
 }
 
-.destinationPage .destinationPageContent .destinationPageInfo {
+.destinationPageContent .destinationPageInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,5 +83,42 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   gap: 79px;
+}
+
+@media screen and (max-width: 1023px) {
+  .destinationPageContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: 0;
+    bottom: 62px;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 75vh;
+  }
+  .destinationPageContent img {
+    height: 300px;
+    width: 300px;
+  }
+  .destinationPageContent ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 573px;
+    gap: 36px;
+  }
+  .destinationPageContent .destinationPageContentInfo {
+    width: 573px;
+    text-align: center;
+    height: 389px;
+  }
+  .destinationPageContent .destinationPageInfo {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 /*# sourceMappingURL=DestinationPage.css.map */

@@ -62,4 +62,27 @@
   -webkit-box-shadow: 2px 2px 0px 88px rgba(255, 255, 255, 0.1);
           box-shadow: 2px 2px 0px 88px rgba(255, 255, 255, 0.1);
 }
+
+@media screen and (max-width: 1023px) {
+  .homePageInfoWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    bottom: 90px;
+    height: 732px;
+    text-align: center;
+  }
+  .homePageInfoWrapper .homePageInfo {
+    height: 334px;
+    width: 450px;
+  }
+  .homePageInfoWrapper .homePageButton button {
+    height: 242px;
+    width: 242px;
+  }
+}
 /*# sourceMappingURL=HomePage.css.map */

@@ -60,7 +60,6 @@
         }
     }
 }
-
 .navBarLine{
     width: 32.7vw;
     height: 1px;
@@ -68,4 +67,28 @@
     position: relative;
     left: calc(10vw - 80px);
     z-index: 10;
+}
+
+@media screen and(max-width: 1023px) {
+    .navBar{
+        top:0;
+    }
+    .navBarLine{
+        display: none;
+    }
+
+    .navBarListWrapper{
+        width:450px;
+    }
+
+    .navBarList{
+        padding-right:0;
+        width: inherit;
+        ul{ 
+            gap: 37px;
+            span{
+                display: none;
+            }
+        }
+    }
 }

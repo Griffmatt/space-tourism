@@ -38,3 +38,27 @@
 
     }
 }
+
+@media  screen and (max-width: 1023px) {
+    .homePageInfoWrapper{
+
+        flex-direction: column;
+        align-items: center;
+        bottom: 90px;
+        height: 732px;
+        text-align: center;
+        .homePageInfo{
+            height: 334px;
+            width: 450px;
+
+        }
+    
+        .homePageButton{
+            button{
+                height: 242px;
+                width: 242px;
+
+            }
+        }
+    }
+}

@@ -99,4 +99,30 @@ p {
   margin-right: 1.95vw;
   opacity: .25;
 }
-/*# sourceMappingURL=App.css.map */
+
+@media screen and (max-width: 1023px) {
+  .navText {
+    font-size: .875rem;
+    letter-spacing: 2.36px;
+  }
+  h5 {
+    font-size: 1.25rem;
+    letter-spacing: 3.38px;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+  .pageTitle {
+    color: #FFFFFF;
+    position: absolute;
+    left: 38.5px;
+    top: 136px;
+  }
+  .pageTitle span {
+    font-weight: bold;
+    margin-right: 1.95vw;
+    opacity: .25;
+  }
+}
+/*# sourceMappingURL=app.css.map */

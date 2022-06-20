@@ -1,63 +1,89 @@
 @import './variables.scss';
 
-.destinationPage{
+.destinationPageContent{
+    position: absolute;
+    left: 15.97vw;
+    bottom: 12.44vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10.9vw;
+    img{
+        height:49.44vh;
+        width: auto;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 285px;
+        height: 34px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        li{
+            cursor: pointer;
+            padding-bottom:12px;
+            color: $LightBLue;
+        }
+        li:hover{
+            border-bottom: 3px solid $Grey;
+        }
+        .active{
+            border-bottom: 3px solid $White;
+            color: $White;
+        }
+        .active:hover{
+            border-bottom: 3px solid $White;
+        }
+    }
+    .destinationPageContentInfo{
+        height: 52.44vh;
+        width: 30.9vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .subHeading2{
+            color: $LightBLue;
+        }
 
-    .destinationPageContent{
-        position: absolute;
-        left: 15.97vw;
-        bottom: 12.44vh;
+    }
+    .contentDivider{
+        width:100%;
+        height:1px;
+        background-color: $Blue;
+    }
+    .destinationPageInfo{
         display: flex;
         justify-content: flex-start;
-        gap: 10.9vw;
+        gap: 79px;
+    }
+}
+
+
+@media  screen and (max-width: 1023px) {
+    .destinationPageContent{
+        flex-direction: column;
+        left: 0;
+        bottom:62px;
+        width: 100%;
+        align-items: center;
+        height:75vh;
         img{
-            height:49.44vh;
-            width: auto;
+            height: 300px;
+            width: 300px;
         }
         ul{
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            width: 285px;
-            height: 34px;
-            padding: 0;
-            margin: 0;
-            vertical-align: top;
-            li{
-                cursor: pointer;
-                padding-bottom:12px;
-                color: $LightBLue;
-            }
-            li:hover{
-                border-bottom: 3px solid $Grey;
-            }
-            .active{
-                border-bottom: 3px solid $White;
-                color: $White;
-            }
-            .active:hover{
-                border-bottom: 3px solid $White;
-            }
+            justify-content: center;
+            width: 573px;
+            gap:36px;
         }
         .destinationPageContentInfo{
-            height: 52.44vh;
-            width: 30.9vw;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            .subHeading2{
-                color: $LightBLue;
-            }
-
-        }
-        .contentDivider{
-            width:100%;
-            height:1px;
-            background-color: $Blue;
+            width: 573px;
+            text-align: center;
+            height: 389px;
         }
         .destinationPageInfo{
-            display: flex;
-            justify-content: flex-start;
-            gap: 79px;
+            justify-content: space-evenly;
         }
     }
 }
