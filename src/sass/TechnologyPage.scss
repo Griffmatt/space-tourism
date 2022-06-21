@@ -82,3 +82,34 @@
         }
     }
 }
+
+@media  screen and (max-width: 500px) {
+    .technologyPage{
+        img{
+            top: 139px;
+            width:100%;
+            height: 170px;
+        } 
+
+        .technologyPageInfo{
+            width: 327px;
+            height: 220px;
+            top: 409px;
+            left: 24px;
+           }
+
+        .techNav{
+            left: 112px;
+            top: 343px;
+            height: 40px;
+            width: 152px;
+            flex-direction: row;
+            .techDot{
+                height: 38px;
+                width: 38px;
+                line-height: 38px;
+                border: 1px solid rgba($White, .25)
+            }
+        }
+    }
+}

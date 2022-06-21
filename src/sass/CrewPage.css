@@ -116,4 +116,43 @@
     width: 10px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .crewPage .crewInfo {
+    top: 436px;
+    left: 24px;
+    width: 327px;
+    height: 170px;
+  }
+  .crewPage .crewInfo h4 {
+    margin-bottom: 0;
+  }
+  .crewPage .crewInfo h3 {
+    max-width: none;
+  }
+  .crewPage .crewInfo p {
+    width: auto;
+    margin: 0;
+  }
+  .crewPage .crewImage {
+    right: calc(50% - 168px);
+    width: 336px;
+    height: 223px;
+    min-width: 0px;
+    top: 139px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .crewPage .crewImage img {
+    height: 223px;
+  }
+  .crewPage .navDots {
+    left: 144px;
+    top: 394px;
+    width: 88px;
+  }
+  .crewPage .navDots .navDot {
+    height: 10px;
+    width: 10px;
+  }
+}
 /*# sourceMappingURL=CrewPage.css.map */

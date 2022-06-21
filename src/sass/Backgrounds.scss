@@ -42,3 +42,20 @@
     }
 }
 
+@media  screen and (max-width: 500px) {
+    .homePage{
+        background-image: url('/public/images/home/background-home-mobile.jpg');}
+    .technologyPage{
+        background-image: url('/public/images/technology/background-technology-mobile.jpg');
+        height: 710px;
+    }
+    .destinationPage{
+        background-image: url('/public/images/destination/background-destination-mobile.jpg');
+        height: 850px;
+    }
+    .crewPage{
+        background-image: url('/public/images/crew/background-crew-mobile.jpg');
+        height: 710px;
+    }
+}
+

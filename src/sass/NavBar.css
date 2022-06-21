@@ -14,9 +14,14 @@
   width: 96.5vw;
 }
 
-.navBar img {
+.navBar .navBarLogo {
   width: 5.3vh;
   height: auto;
+}
+
+.navBar .navBarHamburger {
+  display: none;
+  cursor: pointer;
 }
 
 .navBarListWrapper {
@@ -51,8 +56,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: inherit;
-  width: inherit;
   margin: 0;
   padding: 0;
 }
@@ -114,6 +117,76 @@
   }
   .navBarList ul span {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navBar {
+    top: 24px;
+    left: 24px;
+    width: calc(100vw - 48px);
+  }
+  .navBar .navBarHamburger {
+    display: block;
+    height: 21px;
+    width: 24px;
+  }
+  .navBarClose {
+    position: absolute;
+    right: 27px;
+    top: 33.95px;
+    width: 19px;
+    height: 19px;
+  }
+  .navBarListWrapper {
+    height: 100vh;
+    width: 67.73vw;
+    z-index: 10;
+    position: fixed;
+    right: -67.73vw;
+    top: 0;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .navBarList {
+    height: 100vh;
+  }
+  .navBarList ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 32px;
+    position: relative;
+    left: 32px;
+    top: 118px;
+  }
+  .navBarList ul li {
+    width: 59.2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    line-height: 31px;
+  }
+  .navBarList ul li a {
+    width: 90%;
+  }
+  .navBarList ul li span {
+    display: inline-block;
+  }
+  .navBarList ul li a:hover {
+    border-bottom: none;
+  }
+  .navBarList ul li .active {
+    border-right: 4px solid #FFFFFF;
+    border-bottom: none;
+  }
+  .navBarList ul li .active:hover {
+    border-bottom: none;
   }
 }
 /*# sourceMappingURL=NavBar.css.map */

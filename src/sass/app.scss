@@ -88,6 +88,7 @@ p{
     color: $LightBLue;
     font-family: 'Barlow', sans-serif;
     line-height: 32px;
+    margin: 0;
 }
 
 .pageTitle{
@@ -138,4 +139,46 @@ p{
         }
     }
     
+}
+
+@media  screen and (max-width: 500px) {
+    h1{
+        font-size: 80px;
+    }
+
+    h2{
+        font-size: 56px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 16px;
+        letter-spacing: 2.7px;
+    }
+
+    p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .pageTitle{
+        color: $White;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        top: 88px;
+
+        span{
+            font-weight: bold;
+            margin-right: 17px;
+            opacity: .25;
+        }
+    }
 }

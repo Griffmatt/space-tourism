@@ -87,3 +87,34 @@
         }
     }
 }
+
+@media  screen and (max-width: 500px) {
+    .destinationPageContent{
+        flex-direction: column;
+        bottom: 0;
+        top: 139px;
+        width: 100%;
+        align-items: center;
+        height:653px;
+        justify-content: space-between;
+        img{
+            height: 170px;
+            width: 170px;
+        }
+        ul{
+            justify-content: center;
+            width: 87.2vw;
+            gap:36px;
+        }
+        .destinationPageContentInfo{
+            width: 87.2vw;
+            text-align: center;
+            height: 457px;
+        }
+        .destinationPageInfo{
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 32px;
+        }
+    }
+}
